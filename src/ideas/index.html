@@ -1,0 +1,42 @@
+---
+layout: section
+title: Ideas
+subtitle: See something interesting?
+subtitle2: Feel free to contact me to talk about it!
+link: google.com
+---
+
+<section class="">
+    {% set postslist = collections.idea %}
+
+    {% for post in postslist | reverse %}
+        <article class="my-8 mt-12">
+            <h2 class="font-bold text-3xl text-gray-900 mb-2">
+                {% if post.data.title %}
+                    {{ post.data.title }}
+                {% else %}
+                    Untitled
+                {% endif %}
+            </h2>
+            <p class="text-base leading-6 text-gray-500 mb-3">
+                <time>
+                    {{ post.date | readableDate }}
+                    by
+                    <a>{{ post.data.author }}</a>
+
+                </time>
+            </p>
+            {% if post.data.description %}
+                <p class="text-lg text-gray-500 mb-3">
+                    {{ post.data.description }}
+                </p>
+            {% endif %}
+            {% if post.data.img %}
+            <div class="flex justify-center">
+                <img class="object-contain h-60" src="{{ post.data.img }}"></img>
+            </div>
+            {% endif %}
+
+        </article>
+    {% endfor %}
+</section>

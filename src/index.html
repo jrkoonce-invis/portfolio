@@ -1,0 +1,31 @@
+---
+layout: default
+title: Jameson Koonce
+path: home
+---
+
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center mt-6 lg:mt-0">
+  <div class="cursor-default flex flex-row">
+    <h1 class="">👋</h1>
+    <h1 class="">
+      &nbsp;I'm&nbsp;
+    </h1>
+    <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-ORANGE via-PURPLE to-BLUE pr-1 bg-size-200 animate-gradmove">
+      {{title}}
+    </h1>
+  </div>
+
+  <div class="flex flex-row flex-wrap justify-center">
+    <p class="cursor-default">
+      A software developer and entrepreneur&nbsp;
+    </p>
+    <p>from <code class="bg-gray-100 text-PURPLE p-1">Chicago, Il</code></p>
+ </div>
+
+  {% include "./_includes/partials/content.html" %}
+
+  <div class="fixed w-8 h-8 animate-ladybug animate-wiggle cursor-not-allowed md:opacity-100 lg:opacity-100 opacity-0">
+    <img src="static/img/ladybug.svg" class="rotate-[155deg]" />
+  </div>
+
+</div>

@@ -1,0 +1,18 @@
+---
+links:
+  - title: Projects
+    url: "/projects"
+    desc: Take a look at some of my past and current projects here.
+    tab: ""
+  - title: Experience
+    url: "https://www.linkedin.com/in/jameson-koonce-543292267/"
+    desc: Feel free to connect and chat with me on Linkedin.
+    tab: "_blank"
+  - title: Ideas
+    url: "/ideas"
+    desc: I'm always thinking of new projects, see my growing list here.
+    tab: ""
+  - title: Contact
+    url: "/contact"
+    desc: Have something to share? Feel free to reach out.
+    tab: ""

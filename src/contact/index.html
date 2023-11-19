@@ -1,0 +1,94 @@
+---
+layout: default
+title: Let's Talk
+---
+
+<div class="container mt-6 lg:h-screen flex flex-col justify-center items-center w-screen">
+    <a href="/">
+        <div class="fixed top-0 left-0 m-[1.5rem] hover:scale-[120%] duration-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>          
+        </div>
+    </a>
+    <h1>
+        <strong class="bg-clip-text text-transparent bg-gradient-to-r from-ORANGE via-PURPLE to-BLUE pr-1 bg-size-200 animate-gradmove">
+        {{title}}
+        </strong>
+    </h1>
+
+    <form accept-charset="UTF-8" class="w-6/12" action="https://www.formbackend.com/f/93e29500ae1e3c75" method="POST">
+        <label class="font-medium text-gray-600" for="name">Name</label>
+        <input
+            class="w-full rounded-lg text-sm p-3 mb-4 border-2 rounded border-gray-200 hover:border-PURPLE"
+            placeholder="e.g., Albert Einstein, Amelia Earhart, etc."
+            type="text"
+            id="name"
+            name="name"
+            required
+        />
+        <label class="font-medium text-gray-600" for="email">Email</label>
+        <input
+            class="w-full rounded-lg text-sm p-3 mb-4 border-2 rounded border-gray-200 hover:border-PURPLE"
+            placeholder="example@mailbox.com"
+            type="email"
+            id="email"
+            name="email"
+            required
+        />
+        <label class="font-medium text-gray-600" for="message">Message</label>
+        <textarea
+            class="w-full rounded-lg text-sm p-3 border-2 rounded border-gray-200 hover:border-PURPLE"
+            placeholder="Hey! You're pretty cool..."
+            rows="8"
+            id="message"
+            name="message"
+            required
+        ></textarea>
+
+        
+        <!-- <div class="w-full">
+            <label class="font-medium" for="name">Name</label>
+            <input
+                class="w-full rounded-lg text-sm p-3 border-2 rounded border-gray-200 hover:border-PURPLE"
+                placeholder="e.g., Albert Einstein, Amelia Earhart, etc."
+                type="text"
+                id="name"
+                required
+            />
+        </div>
+
+        <div>
+            <label class="font-medium" for="email">Email</label>
+            <input
+            class="w-full rounded-lg text-sm p-3 border-2 rounded border-gray-200 hover:border-PURPLE"
+            placeholder="example@mailbox.com"
+            type="email"
+            id="email"
+            required
+            />
+        </div>
+
+        <div>
+            <label class="font-medium" for="message">Message</label>
+
+            <textarea
+            class="w-full rounded-lg text-sm p-3 border-2 rounded border-gray-200 hover:border-PURPLE"
+            placeholder="Hey! You're pretty cool..."
+            rows="8"
+            id="message"
+            required
+            ></textarea>
+        </div> -->
+
+        <div class="mt-4 flex justify-center">
+            <button
+                type="submit"
+                class="w-24 rounded-lg font-medium p-3 border-2 rounded border-gray-400 hover:border-BLUE text-gray-600"
+            >
+                Send
+            </button>
+        </div>
+    </form>
+
+</div>
