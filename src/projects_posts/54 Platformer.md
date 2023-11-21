@@ -20,7 +20,7 @@ Project Github can is private under the Founders organization
 **Project Goal:** <a href="https://www.foundersillinois.org/" target="_blank">Founders</a> is the largest entrepreneurship organization at the University of Illinois. Founders' 54 is a weekend long event where students have 54 hours to form teams, develop projects, and pitch to a panel of judges to win prizes. This app acts as a digital witeboard of ideas during the team formation stage of the event. In this way, participants can see all of the potential ideas in one place as they network and form teams!
 
 **Demo** 
-<video width="600" controls>
+<video width="300" controls>
     <source src="../../static/img/54demo.mp4" type="video/mp4">
 </video>
 
