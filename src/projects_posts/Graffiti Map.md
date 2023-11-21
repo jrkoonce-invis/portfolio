@@ -15,6 +15,8 @@ tags:
   </div>
 </a>
 
+Project Github can be <a href="https://github.com/jrkoonce-invis/Grafiti-Map" target="_blank">found here</a>
+
 **Project Goal:** This platform will act as a little game where users can see and try to spot all of the graffiti around campus at the University of Illinois. Users will see a map of all the general locations of graffiti and be able to check them off inidividually. After a grifiti location is selected, a 3d model of the object the grafiti is on will be displayed (as a sort of hint). Users will also be able to sort by "type" and location of graffiti on the map.
 
 **Demo (Current Version)** 
@@ -22,8 +24,8 @@ tags:
 
 **Technologies**
 - Frontend -> <a href="https://react.dev/" target="_blank">ReactJS</a> is the main driver for the frontend. Many components are borrowed from <a href="https://mui.com/joy-ui/getting-started/" target="_blank">MUI React Components</a> (JOY UI Core). The map element is an extension of <a href="https://leafletjs.com/" target="_blank">LeafletJS</a> for React named <a href="https://react-leaflet.js.org/" target="_blank">React Leaflet</a>.
-- Backend -> <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a> is the main driver for the backend. It will be a data meditaor between the database and the frontened.
-- Database -> <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> is the database of choice. It will house the grafiti location, type, and model data.
+- Backend -> <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a> is the main driver for the backend. It is a data meditaor between the database and the frontened.
+- Database -> <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> is the database of choice. It houses the grafiti location, type, and model data.
 
 **Next Steps**
 - Collect Graffiti data around campus

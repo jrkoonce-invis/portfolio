@@ -15,6 +15,8 @@ tags:
   </div>
 </a>
 
+Project Github can be <a href="hhttps://github.com/jrkoonce-invis/FLYR" target="_blank">found here</a>
+
 #### **What is Flyr?**
 Flyr is a student run startup at the University of Illinois that is more effectivly connecting students with opportunities on campus! We are a team of 4 that started at Founders' 54 (LINK) event in the Seibel Center for Design. Since then, we have been deadset on launching our Flyr Platform project during the Spring '24 semester.
 
@@ -48,6 +50,6 @@ Before we started developing, we really wanted to make sure that students (other
 
 **Technologies**
 - Frontend -> <a href="https://react.dev/" target="_blank">ReactJS</a> is the main driver for the frontend along with Tailwind CSS. Many components are borrowed from <a href="hhttps://daisyui.com/" target="_blank">Daisy UI</a> and their Tailwind components
-- Backend -> <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a> is the main driver for the backend. It will be a data meditaor between the database and the frontened.
-- Database -> <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> is the database of choice. It will house flyer image data, points of contact data (name, email), along with potential event data (location, time), etc.
+- Backend -> <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a> is the main driver for the backend. It is a data meditaor between the database and the frontened.
+- Database -> <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> is the database of choice. It houses flyer image data, points of contact data (name, email), along with potential event data (location, time), etc.
 - Authentication -> Authentication for the admin-side site is done through <a href="https://auth0.com/" target="_blank">Auth0</a>. This allows us to securly manage (delete, accept, etc) the posts on the platform.

@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         ORANGE: "#FEAC5E",
         PURPLE: "#C779D0",
-        BLUE: "#4BC0C8"
+        BLUE: "#4BC0C8",
+        BORDER: "#BCA37F"
       },
       backgroundSize: {
         'size-200': '200% 200%',
