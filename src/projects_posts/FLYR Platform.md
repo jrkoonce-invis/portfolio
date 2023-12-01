@@ -18,7 +18,7 @@ tags:
 Project Github can be <a href="hhttps://github.com/jrkoonce-invis/FLYR" target="_blank">found here</a>
 
 #### **What is Flyr?**
-Flyr is a student run startup at the University of Illinois that is more effectivly connecting students with opportunities on campus! We are a team of 4 that started at Founders' 54 (LINK) event in the Seibel Center for Design. Since then, we have been deadset on launching our Flyr Platform project during the Spring '24 semester.
+Flyr is a student run startup at the University of Illinois that is more effectivly connecting students with opportunities on campus! We are a team of 4 that started at <a href="https://www.foundersillinois.org/54" target="_blank">Founders' 54</a> event in the Seibel Center for Design. Since then, we have been deadset on launching our Flyr Platform project during the Spring '24 semester.
 
 <div class="flex justify-center gap-4">
   <img src="../../static/img/flyr_logo.png" alt="Image Unavailable" width="200" />
